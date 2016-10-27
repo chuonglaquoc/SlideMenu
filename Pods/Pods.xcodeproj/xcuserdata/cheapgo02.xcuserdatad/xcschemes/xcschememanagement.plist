@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-SlideMenuOverlapNavigationBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SlideMenuOverlapNavigationBarTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SlideMenuOverlapNavigationBarUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SlideMenuControllerSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4A5D9E1E8631E69D66C9682583D169E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F0C02503259A1D0F228D8B6FF2D8346</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8DE6CBD0CB9A863DF679CA97CF91BB4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E82CFD8A569A0B088046AADD3A547A41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -7,3 +7,18 @@
 //
 
 import Foundation
+import UIKit
+import SlideMenuControllerSwift
+
+class ContainerViewController: SlideMenuController {
+    override func awakeFromNib() {
+        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "Main") {
+            self.mainViewController = controller
+        }
+        if let controller = self.storyboard?.instantiateViewController(withIdentifier: "Menu") {
+            self.leftViewController = controller
+        }
+        SlideMenuOptions.contentViewOpacity = 0.0
+        super.awakeFromNib()
+    }
+}

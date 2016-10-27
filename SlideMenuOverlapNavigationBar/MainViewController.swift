@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SlideMenuControllerSwift
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.clear
+        self.title = "Main View"
     }
 
     override func didReceiveMemoryWarning() {

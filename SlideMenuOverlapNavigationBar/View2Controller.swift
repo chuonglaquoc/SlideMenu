@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import UIKit
+
+class View2Controller: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
+}

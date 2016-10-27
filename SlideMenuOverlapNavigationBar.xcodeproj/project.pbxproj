@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		411F483D1DC1D06200BFB0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F483C1DC1D06200BFB0BF /* AppDelegate.swift */; };
-		411F483F1DC1D06200BFB0BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F483E1DC1D06200BFB0BF /* ViewController.swift */; };
+		411F483F1DC1D06200BFB0BF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F483E1DC1D06200BFB0BF /* MainViewController.swift */; };
 		411F48421DC1D06200BFB0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411F48401DC1D06200BFB0BF /* Main.storyboard */; };
 		411F48441DC1D06200BFB0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411F48431DC1D06200BFB0BF /* Assets.xcassets */; };
 		411F48471DC1D06200BFB0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411F48451DC1D06200BFB0BF /* LaunchScreen.storyboard */; };
 		411F48521DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F48511DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests.swift */; };
 		411F485D1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F485C1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.swift */; };
+		41B9B3BB1DC1D23000939228 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B9B3BA1DC1D23000939228 /* MenuViewController.swift */; };
+		41B9B3BF1DC1D5CF00939228 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B9B3BE1DC1D5CF00939228 /* ContainerViewController.swift */; };
+		41F564EE1DC1EAD000DA4ABE /* View1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F564ED1DC1EAD000DA4ABE /* View1Controller.swift */; };
+		41F564F01DC1EADD00DA4ABE /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F564EF1DC1EADD00DA4ABE /* View2Controller.swift */; };
+		41F564F21DC1EAE600DA4ABE /* View3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F564F11DC1EAE600DA4ABE /* View3Controller.swift */; };
+		A19C0B05681151F247BC3D5F /* Pods_SlideMenuOverlapNavigationBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBB9476A34D2134AA07743E /* Pods_SlideMenuOverlapNavigationBarTests.framework */; };
+		D6E7A27C7596712071B09AC6 /* Pods_SlideMenuOverlapNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB8E6E900BBABA3C0168785 /* Pods_SlideMenuOverlapNavigationBar.framework */; };
+		FD032FAA46BE9B544ACFDE52 /* Pods_SlideMenuOverlapNavigationBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A982FC7A79B7D3A9C196159F /* Pods_SlideMenuOverlapNavigationBarUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0785109063C441E9C44C1467 /* Pods-SlideMenuOverlapNavigationBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideMenuOverlapNavigationBarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBarUITests/Pods-SlideMenuOverlapNavigationBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BBB9476A34D2134AA07743E /* Pods_SlideMenuOverlapNavigationBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideMenuOverlapNavigationBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB8E6E900BBABA3C0168785 /* Pods_SlideMenuOverlapNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideMenuOverlapNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		411F48391DC1D06200BFB0BF /* SlideMenuOverlapNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideMenuOverlapNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		411F483C1DC1D06200BFB0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		411F483E1DC1D06200BFB0BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		411F483E1DC1D06200BFB0BF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		411F48411DC1D06200BFB0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		411F48431DC1D06200BFB0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		411F48461DC1D06200BFB0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,17 @@
 		411F48581DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideMenuOverlapNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		411F485C1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuOverlapNavigationBarUITests.swift; sourceTree = "<group>"; };
 		411F485E1DC1D06200BFB0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41B9B3BA1DC1D23000939228 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		41B9B3BE1DC1D5CF00939228 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		41F564ED1DC1EAD000DA4ABE /* View1Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1Controller.swift; sourceTree = "<group>"; };
+		41F564EF1DC1EADD00DA4ABE /* View2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
+		41F564F11DC1EAE600DA4ABE /* View3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3Controller.swift; sourceTree = "<group>"; };
+		46EBA4F549CA5BF6DC9228C3 /* Pods-SlideMenuOverlapNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideMenuOverlapNavigationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBar/Pods-SlideMenuOverlapNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
+		6D6FF2440CF8AE0C0E4ACCB4 /* Pods-SlideMenuOverlapNavigationBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideMenuOverlapNavigationBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBarTests/Pods-SlideMenuOverlapNavigationBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		8BFE5FFC0671F2111CA26F2F /* Pods-SlideMenuOverlapNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideMenuOverlapNavigationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBar/Pods-SlideMenuOverlapNavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
+		A982FC7A79B7D3A9C196159F /* Pods_SlideMenuOverlapNavigationBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideMenuOverlapNavigationBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8AE74B44ED9CC5EA5E8F37A /* Pods-SlideMenuOverlapNavigationBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideMenuOverlapNavigationBarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBarTests/Pods-SlideMenuOverlapNavigationBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C17A6F03240CD29E63643E4D /* Pods-SlideMenuOverlapNavigationBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideMenuOverlapNavigationBarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBarUITests/Pods-SlideMenuOverlapNavigationBarUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E7A27C7596712071B09AC6 /* Pods_SlideMenuOverlapNavigationBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19C0B05681151F247BC3D5F /* Pods_SlideMenuOverlapNavigationBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD032FAA46BE9B544ACFDE52 /* Pods_SlideMenuOverlapNavigationBarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FA9F5D8AB031DB143C689CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE5FFC0671F2111CA26F2F /* Pods-SlideMenuOverlapNavigationBar.debug.xcconfig */,
+				46EBA4F549CA5BF6DC9228C3 /* Pods-SlideMenuOverlapNavigationBar.release.xcconfig */,
+				B8AE74B44ED9CC5EA5E8F37A /* Pods-SlideMenuOverlapNavigationBarTests.debug.xcconfig */,
+				6D6FF2440CF8AE0C0E4ACCB4 /* Pods-SlideMenuOverlapNavigationBarTests.release.xcconfig */,
+				0785109063C441E9C44C1467 /* Pods-SlideMenuOverlapNavigationBarUITests.debug.xcconfig */,
+				C17A6F03240CD29E63643E4D /* Pods-SlideMenuOverlapNavigationBarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		411F48301DC1D06200BFB0BF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				411F48501DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests */,
 				411F485B1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests */,
 				411F483A1DC1D06200BFB0BF /* Products */,
+				1FA9F5D8AB031DB143C689CC /* Pods */,
+				8B511F2C38B50A092F99297F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +138,11 @@
 			isa = PBXGroup;
 			children = (
 				411F483C1DC1D06200BFB0BF /* AppDelegate.swift */,
-				411F483E1DC1D06200BFB0BF /* ViewController.swift */,
+				41B9B3BE1DC1D5CF00939228 /* ContainerViewController.swift */,
+				411F483E1DC1D06200BFB0BF /* MainViewController.swift */,
+				41B9B3BA1DC1D23000939228 /* MenuViewController.swift */,
 				411F48401DC1D06200BFB0BF /* Main.storyboard */,
+				41F564F41DC1F19B00DA4ABE /* ViewControllers */,
 				411F48431DC1D06200BFB0BF /* Assets.xcassets */,
 				411F48451DC1D06200BFB0BF /* LaunchScreen.storyboard */,
 				411F48481DC1D06200BFB0BF /* Info.plist */,
@@ -125,6 +168,26 @@
 			path = SlideMenuOverlapNavigationBarUITests;
 			sourceTree = "<group>";
 		};
+		41F564F41DC1F19B00DA4ABE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				41F564EF1DC1EADD00DA4ABE /* View2Controller.swift */,
+				41F564F11DC1EAE600DA4ABE /* View3Controller.swift */,
+				41F564ED1DC1EAD000DA4ABE /* View1Controller.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8B511F2C38B50A092F99297F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BB8E6E900BBABA3C0168785 /* Pods_SlideMenuOverlapNavigationBar.framework */,
+				1BBB9476A34D2134AA07743E /* Pods_SlideMenuOverlapNavigationBarTests.framework */,
+				A982FC7A79B7D3A9C196159F /* Pods_SlideMenuOverlapNavigationBarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 411F48611DC1D06200BFB0BF /* Build configuration list for PBXNativeTarget "SlideMenuOverlapNavigationBar" */;
 			buildPhases = (
+				E72CB93A6DFC9D52498E1E24 /* [CP] Check Pods Manifest.lock */,
 				411F48351DC1D06200BFB0BF /* Sources */,
 				411F48361DC1D06200BFB0BF /* Frameworks */,
 				411F48371DC1D06200BFB0BF /* Resources */,
+				68F8C8878F766D0B743D0FA7 /* [CP] Embed Pods Frameworks */,
+				2211A98E76ED0F9B30E6D828 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 411F48641DC1D06200BFB0BF /* Build configuration list for PBXNativeTarget "SlideMenuOverlapNavigationBarTests" */;
 			buildPhases = (
+				1DF449DCE5A83F34AAB5F5D9 /* [CP] Check Pods Manifest.lock */,
 				411F48491DC1D06200BFB0BF /* Sources */,
 				411F484A1DC1D06200BFB0BF /* Frameworks */,
 				411F484B1DC1D06200BFB0BF /* Resources */,
+				72411B3D0459C515BA70A719 /* [CP] Embed Pods Frameworks */,
+				A80E61AA90C5B9B6241C3A04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 411F48671DC1D06200BFB0BF /* Build configuration list for PBXNativeTarget "SlideMenuOverlapNavigationBarUITests" */;
 			buildPhases = (
+				9CBFC8383FF3342DE5139E1E /* [CP] Check Pods Manifest.lock */,
 				411F48541DC1D06200BFB0BF /* Sources */,
 				411F48551DC1D06200BFB0BF /* Frameworks */,
 				411F48561DC1D06200BFB0BF /* Resources */,
+				C65FFB93E40267438E63CA4F /* [CP] Embed Pods Frameworks */,
+				BEF0211428328D1596E18E4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +326,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DF449DCE5A83F34AAB5F5D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2211A98E76ED0F9B30E6D828 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBar/Pods-SlideMenuOverlapNavigationBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68F8C8878F766D0B743D0FA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBar/Pods-SlideMenuOverlapNavigationBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72411B3D0459C515BA70A719 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBarTests/Pods-SlideMenuOverlapNavigationBarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CBFC8383FF3342DE5139E1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A80E61AA90C5B9B6241C3A04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBarTests/Pods-SlideMenuOverlapNavigationBarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF0211428328D1596E18E4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBarUITests/Pods-SlideMenuOverlapNavigationBarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C65FFB93E40267438E63CA4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideMenuOverlapNavigationBarUITests/Pods-SlideMenuOverlapNavigationBarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E72CB93A6DFC9D52498E1E24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		411F48351DC1D06200BFB0BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				411F483F1DC1D06200BFB0BF /* ViewController.swift in Sources */,
+				411F483F1DC1D06200BFB0BF /* MainViewController.swift in Sources */,
+				41F564F01DC1EADD00DA4ABE /* View2Controller.swift in Sources */,
+				41F564F21DC1EAE600DA4ABE /* View3Controller.swift in Sources */,
+				41B9B3BB1DC1D23000939228 /* MenuViewController.swift in Sources */,
+				41B9B3BF1DC1D5CF00939228 /* ContainerViewController.swift in Sources */,
+				41F564EE1DC1EAD000DA4ABE /* View1Controller.swift in Sources */,
 				411F483D1DC1D06200BFB0BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +625,7 @@
 		};
 		411F48621DC1D06200BFB0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BFE5FFC0671F2111CA26F2F /* Pods-SlideMenuOverlapNavigationBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlideMenuOverlapNavigationBar/Info.plist;
@@ -422,6 +638,7 @@
 		};
 		411F48631DC1D06200BFB0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46EBA4F549CA5BF6DC9228C3 /* Pods-SlideMenuOverlapNavigationBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlideMenuOverlapNavigationBar/Info.plist;
@@ -434,6 +651,7 @@
 		};
 		411F48651DC1D06200BFB0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8AE74B44ED9CC5EA5E8F37A /* Pods-SlideMenuOverlapNavigationBarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +666,7 @@
 		};
 		411F48661DC1D06200BFB0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6FF2440CF8AE0C0E4ACCB4 /* Pods-SlideMenuOverlapNavigationBarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +681,7 @@
 		};
 		411F48681DC1D06200BFB0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0785109063C441E9C44C1467 /* Pods-SlideMenuOverlapNavigationBarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SlideMenuOverlapNavigationBarUITests/Info.plist;
@@ -475,6 +695,7 @@
 		};
 		411F48691DC1D06200BFB0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17A6F03240CD29E63643E4D /* Pods-SlideMenuOverlapNavigationBarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SlideMenuOverlapNavigationBarUITests/Info.plist;
@@ -505,6 +726,7 @@
 				411F48631DC1D06200BFB0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		411F48641DC1D06200BFB0BF /* Build configuration list for PBXNativeTarget "SlideMenuOverlapNavigationBarTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +735,7 @@
 				411F48661DC1D06200BFB0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		411F48671DC1D06200BFB0BF /* Build configuration list for PBXNativeTarget "SlideMenuOverlapNavigationBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +744,7 @@
 				411F48691DC1D06200BFB0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
