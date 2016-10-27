@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		411F483D1DC1D06200BFB0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F483C1DC1D06200BFB0BF /* AppDelegate.swift */; };
+		411F483F1DC1D06200BFB0BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F483E1DC1D06200BFB0BF /* ViewController.swift */; };
+		411F48421DC1D06200BFB0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411F48401DC1D06200BFB0BF /* Main.storyboard */; };
+		411F48441DC1D06200BFB0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 411F48431DC1D06200BFB0BF /* Assets.xcassets */; };
+		411F48471DC1D06200BFB0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411F48451DC1D06200BFB0BF /* LaunchScreen.storyboard */; };
+		411F48521DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F48511DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests.swift */; };
+		411F485D1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411F485C1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		411F484E1DC1D06200BFB0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 411F48311DC1D06200BFB0BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411F48381DC1D06200BFB0BF;
+			remoteInfo = SlideMenuOverlapNavigationBar;
+		};
+		411F48591DC1D06200BFB0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 411F48311DC1D06200BFB0BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 411F48381DC1D06200BFB0BF;
+			remoteInfo = SlideMenuOverlapNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		411F48391DC1D06200BFB0BF /* SlideMenuOverlapNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideMenuOverlapNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		411F483C1DC1D06200BFB0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		411F483E1DC1D06200BFB0BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		411F48411DC1D06200BFB0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		411F48431DC1D06200BFB0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		411F48461DC1D06200BFB0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		411F48481DC1D06200BFB0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411F484D1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideMenuOverlapNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		411F48511DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuOverlapNavigationBarTests.swift; sourceTree = "<group>"; };
+		411F48531DC1D06200BFB0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411F48581DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideMenuOverlapNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		411F485C1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuOverlapNavigationBarUITests.swift; sourceTree = "<group>"; };
+		411F485E1DC1D06200BFB0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		411F48361DC1D06200BFB0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411F484A1DC1D06200BFB0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411F48551DC1D06200BFB0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		411F48301DC1D06200BFB0BF = {
+			isa = PBXGroup;
+			children = (
+				411F483B1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBar */,
+				411F48501DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests */,
+				411F485B1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests */,
+				411F483A1DC1D06200BFB0BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		411F483A1DC1D06200BFB0BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				411F48391DC1D06200BFB0BF /* SlideMenuOverlapNavigationBar.app */,
+				411F484D1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests.xctest */,
+				411F48581DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		411F483B1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				411F483C1DC1D06200BFB0BF /* AppDelegate.swift */,
+				411F483E1DC1D06200BFB0BF /* ViewController.swift */,
+				411F48401DC1D06200BFB0BF /* Main.storyboard */,
+				411F48431DC1D06200BFB0BF /* Assets.xcassets */,
+				411F48451DC1D06200BFB0BF /* LaunchScreen.storyboard */,
+				411F48481DC1D06200BFB0BF /* Info.plist */,
+			);
+			path = SlideMenuOverlapNavigationBar;
+			sourceTree = "<group>";
+		};
+		411F48501DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				411F48511DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests.swift */,
+				411F48531DC1D06200BFB0BF /* Info.plist */,
+			);
+			path = SlideMenuOverlapNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		411F485B1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				411F485C1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.swift */,
+				411F485E1DC1D06200BFB0BF /* Info.plist */,
+			);
+			path = SlideMenuOverlapNavigationBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		411F48381DC1D06200BFB0BF /* SlideMenuOverlapNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411F48611DC1D06200BFB0BF /* Build configuration list for PBXNativeTarget "SlideMenuOverlapNavigationBar" */;
+			buildPhases = (
+				411F48351DC1D06200BFB0BF /* Sources */,
+				411F48361DC1D06200BFB0BF /* Frameworks */,
+				411F48371DC1D06200BFB0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideMenuOverlapNavigationBar;
+			productName = SlideMenuOverlapNavigationBar;
+			productReference = 411F48391DC1D06200BFB0BF /* SlideMenuOverlapNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		411F484C1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411F48641DC1D06200BFB0BF /* Build configuration list for PBXNativeTarget "SlideMenuOverlapNavigationBarTests" */;
+			buildPhases = (
+				411F48491DC1D06200BFB0BF /* Sources */,
+				411F484A1DC1D06200BFB0BF /* Frameworks */,
+				411F484B1DC1D06200BFB0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411F484F1DC1D06200BFB0BF /* PBXTargetDependency */,
+			);
+			name = SlideMenuOverlapNavigationBarTests;
+			productName = SlideMenuOverlapNavigationBarTests;
+			productReference = 411F484D1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		411F48571DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 411F48671DC1D06200BFB0BF /* Build configuration list for PBXNativeTarget "SlideMenuOverlapNavigationBarUITests" */;
+			buildPhases = (
+				411F48541DC1D06200BFB0BF /* Sources */,
+				411F48551DC1D06200BFB0BF /* Frameworks */,
+				411F48561DC1D06200BFB0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				411F485A1DC1D06200BFB0BF /* PBXTargetDependency */,
+			);
+			name = SlideMenuOverlapNavigationBarUITests;
+			productName = SlideMenuOverlapNavigationBarUITests;
+			productReference = 411F48581DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		411F48311DC1D06200BFB0BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = CheapGo02;
+				TargetAttributes = {
+					411F48381DC1D06200BFB0BF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					411F484C1DC1D06200BFB0BF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 411F48381DC1D06200BFB0BF;
+					};
+					411F48571DC1D06200BFB0BF = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 411F48381DC1D06200BFB0BF;
+					};
+				};
+			};
+			buildConfigurationList = 411F48341DC1D06200BFB0BF /* Build configuration list for PBXProject "SlideMenuOverlapNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 411F48301DC1D06200BFB0BF;
+			productRefGroup = 411F483A1DC1D06200BFB0BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				411F48381DC1D06200BFB0BF /* SlideMenuOverlapNavigationBar */,
+				411F484C1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests */,
+				411F48571DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		411F48371DC1D06200BFB0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411F48471DC1D06200BFB0BF /* LaunchScreen.storyboard in Resources */,
+				411F48441DC1D06200BFB0BF /* Assets.xcassets in Resources */,
+				411F48421DC1D06200BFB0BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411F484B1DC1D06200BFB0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411F48561DC1D06200BFB0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		411F48351DC1D06200BFB0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411F483F1DC1D06200BFB0BF /* ViewController.swift in Sources */,
+				411F483D1DC1D06200BFB0BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411F48491DC1D06200BFB0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411F48521DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		411F48541DC1D06200BFB0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411F485D1DC1D06200BFB0BF /* SlideMenuOverlapNavigationBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		411F484F1DC1D06200BFB0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411F48381DC1D06200BFB0BF /* SlideMenuOverlapNavigationBar */;
+			targetProxy = 411F484E1DC1D06200BFB0BF /* PBXContainerItemProxy */;
+		};
+		411F485A1DC1D06200BFB0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 411F48381DC1D06200BFB0BF /* SlideMenuOverlapNavigationBar */;
+			targetProxy = 411F48591DC1D06200BFB0BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		411F48401DC1D06200BFB0BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411F48411DC1D06200BFB0BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		411F48451DC1D06200BFB0BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				411F48461DC1D06200BFB0BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		411F485F1DC1D06200BFB0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		411F48601DC1D06200BFB0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		411F48621DC1D06200BFB0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlideMenuOverlapNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.SlideMenuOverlapNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		411F48631DC1D06200BFB0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlideMenuOverlapNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.SlideMenuOverlapNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		411F48651DC1D06200BFB0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideMenuOverlapNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.SlideMenuOverlapNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideMenuOverlapNavigationBar.app/SlideMenuOverlapNavigationBar";
+			};
+			name = Debug;
+		};
+		411F48661DC1D06200BFB0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SlideMenuOverlapNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.SlideMenuOverlapNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideMenuOverlapNavigationBar.app/SlideMenuOverlapNavigationBar";
+			};
+			name = Release;
+		};
+		411F48681DC1D06200BFB0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SlideMenuOverlapNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.SlideMenuOverlapNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SlideMenuOverlapNavigationBar;
+			};
+			name = Debug;
+		};
+		411F48691DC1D06200BFB0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SlideMenuOverlapNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.SlideMenuOverlapNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SlideMenuOverlapNavigationBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		411F48341DC1D06200BFB0BF /* Build configuration list for PBXProject "SlideMenuOverlapNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411F485F1DC1D06200BFB0BF /* Debug */,
+				411F48601DC1D06200BFB0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		411F48611DC1D06200BFB0BF /* Build configuration list for PBXNativeTarget "SlideMenuOverlapNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411F48621DC1D06200BFB0BF /* Debug */,
+				411F48631DC1D06200BFB0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		411F48641DC1D06200BFB0BF /* Build configuration list for PBXNativeTarget "SlideMenuOverlapNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411F48651DC1D06200BFB0BF /* Debug */,
+				411F48661DC1D06200BFB0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		411F48671DC1D06200BFB0BF /* Build configuration list for PBXNativeTarget "SlideMenuOverlapNavigationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				411F48681DC1D06200BFB0BF /* Debug */,
+				411F48691DC1D06200BFB0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 411F48311DC1D06200BFB0BF /* Project object */;
+}

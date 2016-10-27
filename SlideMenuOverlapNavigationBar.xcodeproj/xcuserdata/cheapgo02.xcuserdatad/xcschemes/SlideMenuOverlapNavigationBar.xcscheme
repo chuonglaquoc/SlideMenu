@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0800"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "411F48381DC1D06200BFB0BF"
+               BuildableName = "SlideMenuOverlapNavigationBar.app"
+               BlueprintName = "SlideMenuOverlapNavigationBar"
+               ReferencedContainer = "container:SlideMenuOverlapNavigationBar.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "411F484C1DC1D06200BFB0BF"
+               BuildableName = "SlideMenuOverlapNavigationBarTests.xctest"
+               BlueprintName = "SlideMenuOverlapNavigationBarTests"
+               ReferencedContainer = "container:SlideMenuOverlapNavigationBar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "411F48571DC1D06200BFB0BF"
+               BuildableName = "SlideMenuOverlapNavigationBarUITests.xctest"
+               BlueprintName = "SlideMenuOverlapNavigationBarUITests"
+               ReferencedContainer = "container:SlideMenuOverlapNavigationBar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "411F48381DC1D06200BFB0BF"
+            BuildableName = "SlideMenuOverlapNavigationBar.app"
+            BlueprintName = "SlideMenuOverlapNavigationBar"
+            ReferencedContainer = "container:SlideMenuOverlapNavigationBar.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "411F48381DC1D06200BFB0BF"
+            BuildableName = "SlideMenuOverlapNavigationBar.app"
+            BlueprintName = "SlideMenuOverlapNavigationBar"
+            ReferencedContainer = "container:SlideMenuOverlapNavigationBar.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "411F48381DC1D06200BFB0BF"
+            BuildableName = "SlideMenuOverlapNavigationBar.app"
+            BlueprintName = "SlideMenuOverlapNavigationBar"
+            ReferencedContainer = "container:SlideMenuOverlapNavigationBar.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
